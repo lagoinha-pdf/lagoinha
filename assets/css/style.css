@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/assets/img/bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+body *{
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+
+#container{
+    margin: 56px;
+}
+
+#profile{
+    text-align: center;
+    padding: 24px;
+}
+
+#profile img{
+    width: 25%;
+}
+
+#profile p{
+    font-Weight: 400;
+    font-size: 100%;
+    line-Height: 54px;
+    margin: 8px;
+}
+
+#div-arroba{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#arroba{
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#recado{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+#footer {
+    /* background-color: #333; */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+
+  #footer p {
+    margin: 5px 0;
+  }
+
+img{
+    border-radius: 50%;
+    min-width: 112px;
+    padding: 16px;
+}
+
+.logos{
+    border-radius: 20%;
+    width: 100%; /* Faça as imagens ocuparem 100% da largura na versão web */
+    margin: 8px;
+}
+
+.cursos{
+    display: flex;
+    
+    justify-content: center;
+    max-width: 800px; /* Adicione um valor máximo para a largura do container */
+    margin: 0 auto; /* Centralize o container na página */
+}
+
+@media screen and (max-width: 600px) {
+    .logos {
+      width: 100%;
+    }
+    .cursos{
+      flex-wrap: wrap;
+    }
+    #profile img{
+        width: 100%;
+    }
+  }

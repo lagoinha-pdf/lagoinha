@@ -1,1 +1,1 @@
-# lagoinha
+# discover-rocketseat
